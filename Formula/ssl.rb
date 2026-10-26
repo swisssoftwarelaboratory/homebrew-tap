@@ -2,27 +2,27 @@
 class Ssl < Formula
   desc "SSL Tracker from the command line, for agents and people"
   homepage "https://tracker.swisssoftwarelaboratory.com"
-  version "0.4.1"
+  version "0.5.0"
 
   on_macos do
     on_arm do
-      url "https://tracker.swisssoftwarelaboratory.com/download/0.4.1/ssl-darwin-arm64"
-      sha256 "b69a085ccb2351ee10de15f8675a471dddaa17630f1691bb859082b332f2a6b1"
+      url "https://tracker.swisssoftwarelaboratory.com/download/0.5.0/ssl-darwin-arm64"
+      sha256 "59a1bae764b07cc677ce87fca02c53a8ba0cf3080ffb8646eac22398056ad73b"
     end
     on_intel do
-      url "https://tracker.swisssoftwarelaboratory.com/download/0.4.1/ssl-darwin-x64"
-      sha256 "dd296a1e83ac1fb907f7ae6e0215c171c683d43ad2f6d1adffdd43e31ed30516"
+      url "https://tracker.swisssoftwarelaboratory.com/download/0.5.0/ssl-darwin-x64"
+      sha256 "ac5b16765eb338b8000d69ea67554b468181e2237c2ac9bcef02b2e1b65042e7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://tracker.swisssoftwarelaboratory.com/download/0.4.1/ssl-linux-arm64"
-      sha256 "a7b72e1e9160aba7e0cea9dcf92dd2b6468060d0e10f44ec5cd5274ebb5d16af"
+      url "https://tracker.swisssoftwarelaboratory.com/download/0.5.0/ssl-linux-arm64"
+      sha256 "3a8ed9c961252941b373f221b5c73c01177d4f571ada6e5d4f54052020836363"
     end
     on_intel do
-      url "https://tracker.swisssoftwarelaboratory.com/download/0.4.1/ssl-linux-x64"
-      sha256 "cd57668aac1783ee672f9e5eb459f787c8ab969208b721be8d18794a276138ca"
+      url "https://tracker.swisssoftwarelaboratory.com/download/0.5.0/ssl-linux-x64"
+      sha256 "cd8471db9e2dcf44235932f7373a9de0269ec2563da04f684b264bb3d0515256"
     end
   end
 
